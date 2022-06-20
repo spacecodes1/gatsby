@@ -12,9 +12,9 @@ const IndexPage = () => (
 
     {typeof window !== 'undefined' &&
         <LeafletMap
-          position={task}
+          position={15,-1}
           zoom={15}
-          markerText={"Hello, this is a test marker"}
+          markerText={task}
         />
     }
 
