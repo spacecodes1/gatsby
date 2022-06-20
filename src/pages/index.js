@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import LeafletMap from "../components/leafletmap"
 
-const posGPS = {"49.3015556335449,1.0316807031631"};
+const posGPS ="49.3015556335449,1.0316807031631"
 
 const IndexPage = () => (
   <Layout>
