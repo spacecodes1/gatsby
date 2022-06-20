@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import LeafletMap from "../components/leafletmap"
 
-//const task = await env.TodoList.get("spacecodes:GPS");
+const posGPS = {49.3015556335449,1.0316807031631};
 
 const IndexPage = () => (
   <Layout>
@@ -14,7 +14,7 @@ const IndexPage = () => (
         <LeafletMap
           position={49.3015556335449,1.0316807031631}
           zoom={15}
-          markerText={"task"}
+          markerText={posGPS}
         />
     }
 
