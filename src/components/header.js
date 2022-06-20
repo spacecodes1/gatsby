@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          Simple Leaflet Map in Gatsby
+          Tracking Site
         </Link>
       </h1>
     </div>
