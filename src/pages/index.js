@@ -14,7 +14,7 @@ const IndexPage = () => (
         <LeafletMap
           position={49.3015556335449,1.0316807031631}
           zoom={15}
-          markerText={posGPS}
+          markerText={"posGPS"}
         />
     }
 
